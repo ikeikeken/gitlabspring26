@@ -15,19 +15,26 @@
 
 //place function prototypes here
 void khprinter(void);
+
+void dcFun(void);
+
 void abFun(void);
 
 
+void function13AG(void);
+
+
 void theSigmaMethod(void);
+
 
 void jbInit(void);
 
 void ip21(void);
 
-
 void folksamEV(void);
 
 void ip21(void);
+
 
 void rtFun(void);
 
@@ -48,6 +55,8 @@ void jgFun(void);
 void brooklynstitt(void);
 
 
+
+void PogoAM(void);
 
 int main(int argc, char *argv[])
 {
@@ -132,11 +141,13 @@ int main(int argc, char *argv[])
 			}
 			case 13:
 			{
+				function13AG();
 				puts("room13");
 				break;
 			}
 			case 14:
 			{
+				dcFun();
 				puts("room14");
 				break;
 			}
@@ -227,6 +238,8 @@ int main(int argc, char *argv[])
 			}
 			case 31:
 			{
+				PogoAM();
+
 				puts("room31");
 				break;
 			}
@@ -470,6 +483,25 @@ int main(int argc, char *argv[])
 void khprinter(void)
 {
 	printf("KDH");
+
+
+
+void PogoAM(void)
+{
+	printf("AM\n");
+}
+void dcFun(void)
+{
+	printf("DC\n");
+}
+
+
+
+
+void function13AG(void)
+{
+	printf("AG\n");
+}
 void abFun(void)
 {
 	printf("AB");
@@ -480,6 +512,7 @@ void abFun(void)
 void theSigmaMethod(void)
 {
   printf("J.Q.\n");
+
 }
 
 void folksamEV(void) 
@@ -533,4 +566,6 @@ void printInitialsAjewett(void)
 void jgFun(void)
 {
 	printf("JGB");	
+
 }
+
